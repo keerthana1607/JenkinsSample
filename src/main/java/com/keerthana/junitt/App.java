@@ -17,6 +17,7 @@ public class App {
         return str1.equals(str2);
     }
     
-   
+    public static void main(String[] args) {
+    }
 }
 
