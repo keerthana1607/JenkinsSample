@@ -1,4 +1,4 @@
-package com.keerthana.junit;
+package com.keerthana.junitt;
 
 /**
  * Hello world!
