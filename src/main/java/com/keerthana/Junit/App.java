@@ -1,25 +1,22 @@
-package com.keerthana.Junit;
+package com.keerthana.junit;
 
 /**
  * Hello world!
  *
  */
-public class App 
-{
-    public static boolean  CompareString (String str1,String str2) {
-    	 if(str1.equals(str2))
-    		 return  true;
-    	 else
-    		 return false;
+public class App {
+
+ 
+    private App() {
+       
+    }
+
+   
+    public static boolean compareStrings(String str1, String str2) {
+       
+        return str1.equals(str2);
     }
     
-    public static int sum(int[] val) {
-    	
-    	int total=0;
-    	for (int i=0;i<val.length;i++)
-    		total+=val[i];
-    	
-    	return total;
-    }
-    
+   
 }
+
